@@ -26,7 +26,22 @@
   <h1>加载中...</h1>
 </body>
 <script type="text/javascript">
-  window.location.href = "https://blog.csdn.net/c_kite";
+  function getUrlParam() {
+    // 又没使用babel, 写的低端一点吧
+    var queryArr = window.location.search.substr(1).split('&');
+    var param = {};
+    queryArr.forEach(item => {
+      var keyValue = item.split('=');
+      param[keyValue[0]] = keyValue[1];
+    });
+    return param;
+  }
+  var urlQuery = getUrlParam();
+  var hrefUrf = 'https://blog.csdn.net/c_kite';
+  if (urlQuery.id) {
+    hrefUrf += '/article/details/' + urlQuery.id;
+  }
+  window.location.href = hrefUrf;
 </script>
 
 </html>
