@@ -84,7 +84,7 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img: https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner image
@@ -410,8 +410,8 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
-  copyright: true # Copyright of theme and framework
+  custom_text: Hi, It's great to see you!
+  copyright: false # Copyright of theme and framework
 
 # Analysis
 # --------------------------------------
@@ -422,7 +422,7 @@ baidu_analytics:
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
-google_analytics:
+google_analytics: G-6LFW3Z2CJ0
 
 # Tencent Analytics ID
 # https://mta.qq.com
@@ -529,7 +529,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: ture
   mobile: false
 
 # canvas_nest
@@ -605,7 +605,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -617,12 +617,12 @@ subtitle:
   # source: 3  調用一句網（簡體）
   # source: 4  調用今日詩詞（簡體）
   # subtitle 會先顯示 source , 再顯示 sub 的內容
-  source: false
+  source: 4
   # 如果有英文逗號' , ',請使用轉義字元 &#44;
   # 如果有英文雙引號' " ',請使用轉義字元 &quot;
   # 開頭不允許轉義字元，如需要，請把整個句子用雙引號包住
   # 如果關閉打字效果，subtitle只會顯示sub的第一行文字
-  sub:
+  sub: ' '
 
 # Loading Animation (加載動畫)
 preloader: false
@@ -631,7 +631,7 @@ preloader: false
 # --------------------------------------
 
 aside:
-  enable: true
+  enable: false
   hide: false
   button: true
   mobile: true # display on mobile
@@ -640,10 +640,10 @@ aside:
     enable: true
     description:
     button:
-      enable: true
+      enable: false
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/liuxuan1-1
   card_announcement:
     enable: true
     content: This is my Blog
