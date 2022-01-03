@@ -23,7 +23,19 @@
   color: var(--font-color);
 }
 
+#page-header #site_social_icons {
+  display: block;
+}
+
+#page-header #site_social_icons .social-icon {
+  color: var(--font-color);
+}
+
 #page-header #scroll-down {
+  display: none;
+}
+
+#sidebar #sidebar-menus .site-data {
   display: none;
 }
 
