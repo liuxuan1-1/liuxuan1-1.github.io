@@ -19,6 +19,10 @@
   color: var(--font-color);
 }
 
+#page-header #site-subtitle {
+  color: var(--font-color);
+}
+
 #page-header #scroll-down {
   display: none;
 }
