@@ -8,7 +8,7 @@
 
 menu:
   Home: / || fas fa-home
-  Blog: /archives/ || fas fa-book
+  Blog: https://liuxuan.blog.csdn.net/ || fas fa-book
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
@@ -85,16 +85,16 @@ favicon: /img/favicon.png
 # Avatar (頭像)
 avatar:
   img: /img/avatar.jpg
-  effect: false
+  effect: true
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://pic2.zhimg.com/v2-a6cdcf4139f942f6a42d1b3ba7bbba2a_r.jpg?source=1940ef5c
+index_img: 
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://pic2.zhimg.com/v2-a6cdcf4139f942f6a42d1b3ba7bbba2a_r.jpg?source=1940ef5c
+default_top_img: 
 
 # The banner image of archive page
 archive_img: 
@@ -136,7 +136,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: false
+  enable: true
   subtitle: 'Page Not Found'
   background: https://i.loli.net/2020/05/19/aKOcLiyPl2JQdFD.png
 
@@ -409,7 +409,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text: Hi, It's great to see you!
   copyright: false # Copyright of theme and framework
 
@@ -529,7 +529,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: ture
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -834,7 +834,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+   <link rel="stylesheet" href="/css/custom_index.css">
   bottom:
     # - <script src="xxxx"></script>
 
