@@ -11,6 +11,14 @@
   color: var(--font-color);
 }
 
+#nav a:hover {
+  color: var(--color-input-placeholder);
+}
+
+#nav .site-page:not(.child):after {
+  background-color: var(--color-input-placeholder);
+}
+
 #page-header {
   background: transparent;
 }
@@ -46,6 +54,10 @@
 #footer {
   background: transparent;
   color: var(--font-color);
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 #footer-wrap {
